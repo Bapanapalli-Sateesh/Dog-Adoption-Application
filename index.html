@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOG ADOPTION APPLICATION</title>
+</head>
+<body>
+    
+    <form action="https://httpbin.org/get" method="get">
+
+        <fieldset>
+            <legend align="center">DOG ADOPTION APPLICATION</legend>
+
+            <p>
+                Hi Ritesh, Thanks for your interest in adopting a dog. Please fill out the below form to find out the best matches for you!
+            </p>
+
+            <table>
+
+                <tr>
+                    <td>
+                        <label for="name">Name</label>
+                    </td>
+                    <td>
+                        <input type="text" name="name" id="name" value="Name" placeholder="Name">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="phone">Phone Number </label>
+                    </td>
+                    <td>
+                        <input type="tel" name="phone" id="phone" value="Phone Number" placeholder="Phone Number">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="address">Address</label>
+                    </td>
+                    <td>
+                        <textarea name="address" id="address" placeholder="Address" value="Address" cols="30" rows="1"></textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        Have you ever lived with a Dog before?	
+                    </td>
+                    <td>
+                        <input type="checkbox" name="checkbox" id="checkbox">
+                        <label for="checkbox">Have you ever lived with a Dog before?	</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="multiSelect">Please select your preferred breeds	</label>
+                    </td>
+                    <td>
+                        <select name="multiSelect" id="multiSelect">
+                            <option value="choose">Choose</option>
+                            <option value="labrador">Labrador Retriever</option>
+                            <option value="german-Shepherd">German Shepherd</option>
+                            <option value="golden-Retriever">Golden Retriever</option>
+                            <option value="poodle">Poodle</option>
+                            <option value="beagle">Beagle</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" id="submit" value="Submit" formaction="https://httpbin.org/post" formmethod="post">
+                    </td>
+                </tr>
+            </table>
+
+
+        </fieldset>
+    </form>
+</body>
+</html>
